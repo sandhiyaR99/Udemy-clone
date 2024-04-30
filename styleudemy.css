@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: black 2px solid;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.title h1{
+    color: #A435F0;
+    font-size: 45px;
+}
+.search{
+    border: black 1px solid;
+    width: 50%;
+    padding: 8px;
+    border-radius: 20px;
+}
+.search input{
+    border-style: none;
+    width: 90%;
+    padding-left: 10px;
+}
+.search input:focus{
+    outline-style: none;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.icon__course,.icon__learning{
+    position: relative;
+    cursor: pointer;
+}
+.icon__course p,.icon__learning p{
+    position: absolute;
+    top: 40px;  
+    padding: 5px;
+    border: 1px black solid;
+    display: none;
+    background-color: white;
+}
+.icon__course:hover.icon__course p{
+    display: block;
+}
+.icon__learning:hover.icon__learning p{
+    display: block;
+}
+.icon i{
+    cursor: pointer;
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.categories p{
+    border-radius: 20px;
+    background-color: #A435F0;
+    color: white;
+    padding: 10px;
+}
+.image{
+    position: relative;
+}
+.image img{
+    width: 100%;
+}
+.image__offer{
+    padding: 15px;
+    border: 2px white solid;
+    text-align: center;
+    width: fit-content;
+    background-color: #928D86;
+    color: white;
+    position: absolute;
+    top:40%;
+    left: 6%;
+    font-size: 22px;
+}
+.recommends,.topics,.popular{
+    padding: 10px;
+}
+.recommends h1,.topics h1,.popular h1{
+    color: #A435F0;
+}
+.products,.topics__options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.products__card{
+    margin: 5px 0px;
+}
+.products__card img{
+    width: 100%;
+    height: 200px;
+}
+.topics__options p{
+    border: 1px black solid;
+    border-radius: 8px;
+    flex-basis: 20%;
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 5px;
+}
+.popular .products__card{
+    flex-basis: 22%;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.footersection1,.footersection2{
+    display: inline-block;
+    padding: 35px;
+}
+.footersection1 li,.footersection2 li{
+    list-style: none;
+    margin: 8px;
+    padding: 5px;
+}
+.footersection3{
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+}
