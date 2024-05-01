@@ -104,7 +104,7 @@ header {
 }
 
 .image__offer {
-    width: 30%;
+    width: 35%;
     text-align: center;
     padding: 1%;
     top: 10%;
@@ -205,12 +205,5 @@ footer {
     .categories,
     .search {
         display: none;
-    }
-    .image__offer {
-        width: 25%;
-        text-align: center;
-        padding: 1%;
-        top: 10%;
-        left: 5%;
     }
 }
