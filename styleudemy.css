@@ -104,7 +104,7 @@ header {
 }
 
 .image__offer {
-    width: fit-content;
+    width: 30%;
     text-align: center;
     padding: 1%;
     top: 10%;
@@ -174,7 +174,7 @@ footer {
 .footersection1,
 .footersection2 {
     display: inline-block;
-    padding: 40px;
+    padding: 15px 0px 15px 15px;
 }
 
 .footersection1 li,
@@ -197,7 +197,7 @@ footer {
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     .products__card {
         flex-basis: 45%;
     }
@@ -205,5 +205,12 @@ footer {
     .categories,
     .search {
         display: none;
+    }
+    .image__offer {
+        width: 20%;
+        text-align: center;
+        padding: 1%;
+        top: 10%;
+        left: 5%;
     }
 }
